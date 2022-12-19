@@ -2,7 +2,7 @@ body {
     text-align: center;
     color: lightblue;
     background-color: rgba(0, 200, 255, 0.2);
-    background-image: url("../img/wall-tone.jpg");
+    background-image: url("../../img/wall-tone.jpg");
     font-family: 'Courier New', Courier, sans-serif;
 }
 
