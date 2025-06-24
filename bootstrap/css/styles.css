@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    color: lightblue;
+    background-color: rgba(0, 200, 255, 0.2);
+    background-image: url("../../img/wall-tone.jpg");
+    font-family: 'Courier New', Courier, sans-serif;
+}
+
+header, article, footer {
+    background-color: rgba(5, 39, 48, 0.7);
+}
+
+a {
+    border: 1px solid rgba(134, 185, 224, 0.5);
+}
+
+/* * {
+    border: 1px dotted rgba(255, 255, 255, 0.25);
+} */
+
+.nav-item {
+    transition: background-color 0.5s ease;
+    box-shadow: 1px 1px 8px black;
+    background-color: rgba(255,255,255,0.02);
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    color: initial;
+    background-color: rgba(0, 200, 255, 0.2);
+}
+
+.nav-link {
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: color 0.5s ease;
+    color: lightblue;
+}
+
+.nav-link:hover {
+    color: lightblue;
+}
+
+.site-link-container {
+    background-color: rgb(0, 87, 92);
+}
+
+.site-link-container a {
+    border-color: black;
+}
